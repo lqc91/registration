@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Verification</title>
+  <link rel="stylesheet" href="./style/reset.css">
+  <link rel="stylesheet" href="./style/main.css">
+</head>
+<body>
+  <div class="register">
+    <h1 class="title">用户注册</h1>
+    <form id="register-form" class="register-form" action="">
+      <p>
+        <label for="username">用户名：</label>
+        <input id="username" type="text">
+      </p>
+      <p>
+        <label for="password">登录密码：</label>
+        <input id="password" type="password">
+      </p>
+      <p>
+        <label for="confirm-password">确认密码：</label>
+        <input id="confirm-password" type="password">
+      </p>
+      <p>
+        <label for="name">姓名：</label>
+        <input id="name" type="text">
+      </p>
+      <p>
+        <label for="gender">性别：</label>
+        <select id="gender" class="gender-select" name="gender">
+          <option value="male">男</option>
+          <option value="female">女</option>
+        </select>
+      </p>
+      <p>
+        <label for="ID-card">身份证号码：</label>
+        <input id="ID-card" type="text">
+      </p>
+      <p>
+        <label for="email">邮箱：</label>
+        <input id="email" type="email">
+      </p>
+      <p>
+        <label for="tel">手机号码：</label>
+        <input id="tel" type="tel">
+      </p>
+      <button class="submit" type="submit">提交</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="./script/main.js"></script>
+</body>
+</html>

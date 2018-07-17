@@ -1,0 +1,53 @@
+.register{
+  width:1000px;
+  height:600px;
+  margin:0 auto;
+  background-color:#eee;
+}
+.title{
+  height:30px;
+  line-height:30px;
+  font-size:16px;
+  text-indent:20px;
+  color:#fff;
+  background-color:#3092d1;
+}
+.register-form{
+  margin-left:262px;
+  margin-top:46px;
+}
+.register-form label{
+  display:inline-block;
+  width:98px;
+  height:40px;
+  font-size:16px;
+  line-height:20px;
+  padding-right:10px;
+  text-align:right;
+}
+.register-form input{
+  display:inline-block;
+  width:150px;
+  height:18px;
+  margin-right:8px;
+  border:1px solid #a9a9a9;
+}
+.register-form .gender-select{
+  width:143px;
+  height:20px;
+  margin-left:5px;
+  border:1px solid #a9a9a9;
+}
+.register-form .submit{
+  width:72px;
+  height:38px;
+  margin-top:40px;
+  margin-left:138px;
+  font-size:16px;
+  line-height:36px;
+  text-align:center;
+  color:#fff;
+  border:1px solid #064e9c;
+  border-radius:5px;
+  background-color:#2375ba;
+}
