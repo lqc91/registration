@@ -10,21 +10,27 @@
   <div class="register">
     <h1 class="title">用户注册</h1>
     <form id="register-form" class="register-form" action="">
+      <!-- 该form表单中的span元素仅用于动态写入验证字段的提示信息 -->
       <p>
         <label for="username">用户名：</label>
-        <input id="username" type="text">
+        <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text -->
+        <input id="username" type="text" required minlength="6" maxlength="20">
+        <span></span>
       </p>
       <p>
         <label for="password">登录密码：</label>
-        <input id="password" type="password">
+        <input id="password" type="password" required minlength="6" maxlength="18">
+        <span></span>
       </p>
       <p>
         <label for="confirm-password">确认密码：</label>
-        <input id="confirm-password" type="password">
+        <input id="confirm-password" type="password" required minlength="6" maxlength="18">
+        <span></span>
       </p>
       <p>
         <label for="name">姓名：</label>
         <input id="name" type="text">
+        <span></span>
       </p>
       <p>
         <label for="gender">性别：</label>
@@ -35,17 +41,20 @@
       </p>
       <p>
         <label for="ID-card">身份证号码：</label>
-        <input id="ID-card" type="text">
+        <input id="ID-card" type="text" required minlength="15" maxlength="18">
+        <span></span>
       </p>
       <p>
         <label for="email">邮箱：</label>
         <input id="email" type="email">
+        <span></span>
       </p>
       <p>
         <label for="tel">手机号码：</label>
         <input id="tel" type="tel">
+        <span></span>
       </p>
-      <button class="submit" type="submit">提交</button>
+      <button id="submit" class="submit" type="submit">提交</button>
     </form>
   </div>
   <script type="text/javascript" src="./script/main.js"></script>
